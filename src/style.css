@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    height: 100vh;
+}
+
+
+.mid {
+text-align: center;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(191, 92, 11);
+    padding: 1rem;
+}
+header div button{
+    border: none;
+    padding: 3px;
+    background-color: transparent;
+    text-transform:uppercase;
+    font-size: 1.5rem;
+}header div button:hover{
+   text-decoration: underline;
+    color: white;
+}
+.selected{
+    text-decoration: underline;
+    color: white;  
+}

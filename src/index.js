@@ -3,6 +3,7 @@ import about from "../tabs/home";
 import loadMenu from "../tabs/menu";
 import clean from "../utility";
 import contact from "../tabs/contact";
+import selected from "../tabselect";
 pageLoad();
 about();
 
@@ -10,6 +11,7 @@ about();
     homeButton.addEventListener("click", ()=>{
         clean();
         about();
+        selected();
     });
     const menuButton = document.querySelector(".menu-button");
     menuButton.addEventListener("click", ()=>{

@@ -6,6 +6,7 @@ function pageLoad(){
     
     const home = document.createElement('button');
     home.classList.add("home-button");
+    home.id='home-buttonid';
     home.textContent = "Home";
 
     const menu = document.createElement('button');
