@@ -5,7 +5,7 @@ function pageLoad(){
     const navbar = document.createElement('div');
     
     const home = document.createElement('button');
-    home.classList.add("home-button");
+    home.classList.add("home-button", "selected");
     home.id='home-buttonid';
     home.textContent = "Home";
 

@@ -11,17 +11,27 @@ about();
     homeButton.addEventListener("click", ()=>{
         clean();
         about();
-        selected();
+        
+        contactButton.classList.remove('selected');
+        menuButton.classList.remove('selected');
+        homeButton.classList.add('selected');
     });
     const menuButton = document.querySelector(".menu-button");
     menuButton.addEventListener("click", ()=>{
         clean();
     loadMenu();
+    contactButton.classList.remove('selected');
+    menuButton.classList.add('selected');
+    homeButton.classList.remove('selected');
     });
     const contactButton = document.querySelector(".contact-button");
     contactButton.addEventListener("click", ()=>{
         clean();
         contact();
+        contactButton.classList.add('selected');
+        menuButton.classList.remove('selected');
+        homeButton.classList.remove('selected');
+
     });
     
 
