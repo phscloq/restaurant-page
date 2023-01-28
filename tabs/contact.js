@@ -3,7 +3,7 @@ import { content } from "../utility";
 const contact = ()=>{
     const divP = document.createElement('div');
     const rImg = document.createElement('img');
-   rImg.setAttribute('src', '/dist/img/r3.png')
+   rImg.setAttribute('src', '/img/r3.png')
     divP.classList.add('divP');
     const divImg = document.createElement('div');
     divImg.appendChild(rImg);
